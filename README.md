@@ -33,11 +33,25 @@ My goals for this repository are:
 
 ## Current Progress
 
-- [ ] Set up repository structure
-- [ ] Review Python/pandas for quant workflow
+- [x] Set up repository structure
+- [x] Review Python/pandas for quant workflow
 - [ ] Start first factor study: momentum
 - [ ] Build first simple group backtest
 - [ ] Write project summary
+
+## Day 1: Market Data Download and Return Analysis
+
+Completed the first notebook (`notebooks/day01_market_data.ipynb`) which covers:
+
+- Downloading historical daily data for SPY and AAPL using `yfinance`
+- Inspecting data structure and handling missing values
+- Extracting closing prices and computing daily returns
+- Visualizing price series, return series, and histograms
+- Calculating summary statistics and volatility measures
+- Saving processed data to CSV files
+- Generating a comprehensive analysis report
+
+This establishes the basic workflow for quantitative research in Python, emphasizing the importance of returns over prices and demonstrating volatility differences between assets.
 
 ## Planned Topics
 
